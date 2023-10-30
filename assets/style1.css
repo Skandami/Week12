@@ -1,0 +1,36 @@
+body {
+
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+background-color: seashell;
+
+}
+
+h1 {
+color: darkblue;
+
+}
+
+#calculator {
+
+background-color: bisque;
+padding: 40px;
+border-radius: 5px;
+display: inline-block;
+
+}
+
+label, input, button {
+display: block;
+margin: 10px 0;
+
+}
+
+button {
+    padding: 10px 20px;
+border-radius: 5px;
+background-color: cornflowerblue;
+border: none;
+cursor: pointer;
+}
+
