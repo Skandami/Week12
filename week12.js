@@ -256,7 +256,7 @@ const resultNineteen = document.querySelector('#resultNineteen');
 
 const makeNineteen = () => {
 	const str = 'Hello, world!';
-	resultNineteen.textContent = (str.search("world"));
+	resultNineteen.textContent = (str.substr(7, 6));
 };
 buttonNineteen.addEventListener('click', makeNineteen);
 
@@ -347,7 +347,7 @@ const buttonTwentySix = document.querySelector('.b-26');
 const resultTwentySix = document.querySelector('#resultTwentySix');
 
 const makeTwentySix = () => {
-	resultTwentySix.textContent = ((Math.random() * (1 - 2)) + 1).toFixed(4);
+	resultTwentySix.textContent = Math.random().toFixed(4);
 };
 buttonTwentySix.addEventListener('click', makeTwentySix);
 
@@ -359,7 +359,7 @@ const buttonTwentySeven = document.querySelector('.b-27');
 const resultTwentySeven = document.querySelector('#resultTwentySeven');
 
 const makeTwentySeven = () =>{
-	resultTwentySeven.textContent = Math.floor(Math.random() * (100- 50 + 50)) + 1;}
+	resultTwentySeven.textContent = Math.floor(Math.random() * (100- 50 + 1)) + 50;}
 buttonTwentySeven.addEventListener('click', makeTwentySeven);
 
 
